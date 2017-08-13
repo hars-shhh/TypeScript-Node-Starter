@@ -41,8 +41,8 @@
     "testEnvironment": "node"
   },
   "dependencies": {
-    "@types/react": "^16.0.2",
-    "@types/react-dom": "^15.5.2",
+    "@types/acl": "^0.4.33",
+    "acl": "^0.4.10",
     "async": "^2.1.2",
     "bcrypt-nodejs": "^0.0.3",
     "bluebird": "^3.5.0",
@@ -70,6 +70,8 @@
     "request": "^2.78.0"
   },
   "devDependencies": {
+    "@types/react": "^16.0.2",
+    "@types/react-dom": "^15.5.2",
     "@types/async": "^2.0.40",
     "@types/bcrypt-nodejs": "0.0.30",
     "@types/body-parser": "^1.16.2",

@@ -110,11 +110,17 @@ class Server {
     });
     app.use(express.static(path.join(__dirname, "public"), { maxAge: 31557600000 }));
 
+    // passport config
+    await import("./config/passport");
+
+    // node-acl config
+    const { ACL } = await import("./config/acl");
+
     /**
      * Index router.
      */
     const routes = await import("./routes");
-    app.use("", routes.router);
+    app.use(routes.router);
 
     /**
      * Error Handler. Provides full stack - remove for production
