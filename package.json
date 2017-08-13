@@ -41,8 +41,11 @@
     "testEnvironment": "node"
   },
   "dependencies": {
+    "@types/react": "^16.0.2",
+    "@types/react-dom": "^15.5.2",
     "async": "^2.1.2",
     "bcrypt-nodejs": "^0.0.3",
+    "bluebird": "^3.5.0",
     "body-parser": "^1.15.2",
     "compression": "^1.6.2",
     "connect-mongo": "^1.3.2",
@@ -62,6 +65,8 @@
     "passport-facebook": "^2.1.1",
     "passport-local": "^1.0.0",
     "pug": "^2.0.0-beta6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "request": "^2.78.0"
   },
   "devDependencies": {
@@ -78,7 +83,7 @@
     "@types/jquery": "^2.0.41",
     "@types/lodash": "^4.14.63",
     "@types/mongodb": "^2.1.43",
-    "@types/mongoose": "^4.7.9",
+    "@types/mongoose": "^4.7.11",
     "@types/morgan": "^1.7.32",
     "@types/node": "^7.0.12",
     "@types/nodemailer": "^1.3.32",
